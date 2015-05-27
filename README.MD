@@ -23,16 +23,29 @@ This command will get a copy of the repository that will be the base for the dep
 git clone https://github.com/USGS-WiM/StreamStats.git
 ```
 
-#### 2.  Setup GitAutoDeploy
+#### 2.  Get initial clones of repositories
+Get a copy of this repo
+```bash
+git clone https://github.com/USGS-WiM/Github-Auto-Deploy.git
+```
+
+#### 3.  Setup GitAutoDeploy
 To set it up, do the following:
 
- - enter the matching for your project(s) in the GitAutoDeploy.conf.json file
- - start the server by typing "python GitAutoDeploy.py" 
-to run it as a daemon add "--daemon-mode"
+ - Update the GitAutoDeploy.conf.json file
+ - start the server by typing:
+ ```bash
+ python GitAutoDeploy.py
+ ```
+ OR to run it as a daemon:
+ ```bash
+ python GitAutoDeploy.py --daemon-mode
+ ```
+
  - On the Github page go to a repository, then "Admin", "Service Hooks", 
 "Post-Receive URLs" and add the url of your machine + port (e.g. http://example.com:8001).  Specify Content type as application/json
 
-#### 2.  Set up symobolic links to apache 
+#### 4.  Set up symobolic links to apache 
 This creates a symbolic link between the github repository in your home folder and the apache web server home folder.  Here we can specify to only make the symbolic link from a specific folder in the github reposity, ie "/dist" in the example below.
 
 ```bash
