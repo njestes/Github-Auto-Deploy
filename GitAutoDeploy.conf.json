@@ -1,0 +1,19 @@
+{
+	"port": 8001,
+	"repositories":
+	[{
+			"url": "https://github.com/USGS-WiM/StreamStatsWebserviceDocume$
+			"path": "/home/ubuntu/StreamStatsWebserviceDocumentation",
+			"deploy": "echo deploying"
+	},
+	{
+			"url": "https://github.com/USGS-WiM/streamstats",
+			"path": "/home/ubuntu/streamstats",
+			"deploy": "echo deploying"
+	},
+	{
+			"url": "https://github.com/USGS-WiM/NSS",
+			"path": "/home/ubuntu/NSS",
+			"deploy": "echo deploying"
+	}]
+}
