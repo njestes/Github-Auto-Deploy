@@ -28,7 +28,7 @@ To set it up, do the following:
 
  - enter the matching for your project(s) in the GitAutoDeploy.conf.json file
  - start the server by typing "python GitAutoDeploy.py" 
-to run it as a daemon add ==--daemon-mode==
+to run it as a daemon add "--daemon-mode"
  - On the Github page go to a repository, then "Admin", "Service Hooks", 
 "Post-Receive URLs" and add the url of your machine + port (e.g. http://example.com:8001).  Specify Content type as application/json
 
