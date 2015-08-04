@@ -3,18 +3,8 @@
         "port": 8001,
         "repositories":
         [{
-                        "url": "https://github.com/USGS-WiM/StreamStatsWebserviceDocumentation",
-                        "path": "/home/ubuntu/StreamStatsWebserviceDocumentation",
-                        "deploy": "echo deploying"
-        },
-        {
-                        "url": "https://github.com/USGS-WiM/StreamStats",
-                        "path": "/home/ubuntu/StreamStats",
-                        "deploy": "echo deploying"
-        },
-        {
-                        "url": "https://github.com/USGS-WiM/NSS",
-                        "path": "/home/ubuntu/NSS",
+                        "url": "https://github.com/USGS-WiM/WetlandsMapper",
+                        "path": "D:\\Projects\\Applications\\WetlandsMapper",
                         "deploy": "echo deploying"
         }]
 }
